@@ -1,1 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+  
+h1{
+    text-align:center;
+}
 
+body{    
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    border: 5px;
+    margin:auto;
+    padding:5px;
+}
+  
+.box{
+    background-color: #8e8e8e;
+    margin:10px;
+    border:2px solid black;
+}
+
+.title-box{
+    width:30%;
+    border: 2px solid black;
+    text-align: center;
+    position:relative;
+    float:right;  /* to keep the title card on top right corner */
+}
+  
+p {
+    margin:10px;
+    clear:both; /* brings the text below the title box by resuming document flow*/
+}
+  
+#chicken{
+    background-color: #cf8d8d;
+}
+
+#beef{
+    background-color: #b93c3b;
+}
+     
+#sushi{
+    background-color: #e1ca8d;
+}
+     
+  /* based on 12 grid layout */
+  /* desktop view */
+  @media (min-width: 992px) {
+    .col-lg-4 {     /* for large - 4 columns occupied */
+      float: left;
+      width: 33.33%;
+    }
+  }
+  
+  /* tablet view*/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {      /* for medium - 6 columns occupied */
+      width: 50%;
+      float: left;
+    }
+    .col-md-12 {     /* for medium - 12 columns occupied */
+      width: 100%;
+      float: left;
+    }
+  }
+  
+  /* mobile view */
+  @media (max-width: 767px) {
+    .col-sm-12 {     /* for small - 12 columns occupied */
+      float: left;
+      width: 100%;}
+  }
