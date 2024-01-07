@@ -1,69 +1,65 @@
-*{
+* {
     box-sizing: border-box;
 }
-  
-h1{
-    text-align:center;
+
+#header-nav {
+    background-color: #AAA5A5;
+    border-radius: 0;
+    border: 0;    
+    border: solid black 3px;
+    margin-bottom: 0;
 }
 
-body 
-{    
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    border: 5px;
-    margin:auto;
-    padding:5px;
-}
-  
-.box
-{
-    background-color: #8e8e8e;
-    margin:10px;
-    border:2px solid black;
+.navbar-brand {       
+    padding-left: 0;  
 }
 
-.title-box
-{
-    /*width:30%;
-    border: 2px solid black;
-    position:relative;*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar-brand h1 {    
+    font-family: 'Alfa Slab One';
+    font-size: 1.5em;
+    color: black;   
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.text-center {
+    font-family: 'Sofia';
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+}
+
+#text {       
+    margin: 10px;
+    background-color: #AAA5A5;
+    font-family: 'Alfa Slab One';   
+    position: relative;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
     text-align: center;
+    color: black;
+    font-family: 'Alfa Slab One';
+    font-weight: 100;
+    background-color: #AAA5A5;
 }
-  
-p
-{
-    margin:10px;
-    clear:both; /* brings the text below the title box by resuming document flow*/
+
+#nav-list a:hover {
+    background-color: #AEAE52;   
 }
-  
-#header-nav{
-    border:0;
-    background-color: #f6b319;
-}
-     
-  /* based on 12 grid layout */
-  /* desktop view */
-  @media (min-width: 992px) {
-    .col-lg-4 {     /* for large - 4 columns occupied */
-      float: left;
-      width: 33.33%;
-    }
-  }
-  
-  /* tablet view*/
-  @media (min-width: 768px) and (max-width: 991px) {
-    .col-md-6 {      /* for medium - 6 columns occupied */
-      width: 50%;
-      float: left;
-    }
-    .col-md-12 {     /* for medium - 12 columns occupied */
-      width: 100%;
-      float: left;
-    }
-  }
-  
-  /* mobile view */
-  @media (max-width: 767px) {
-    .col-sm-12 {     /* for small - 12 columns occupied */
-      float: left;
-      width: 100%;}
-  }
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
