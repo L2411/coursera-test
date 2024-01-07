@@ -9,6 +9,16 @@ body{
   background-color: white;
 }
 
+a{
+   text-align: center;
+}
+
+.box{
+    background-color: #8e8e8e;
+    margin:10px;
+    border:2px solid black;
+}
+	
 #header-nav {
   height: 65px;
   background-color: #D0D0D0;   
@@ -17,7 +27,6 @@ body{
   margin: 0;*/
   border-bottom: 1px solid black;
 }
-
 
 .navbar-brand{
   margin-left: 25px;
