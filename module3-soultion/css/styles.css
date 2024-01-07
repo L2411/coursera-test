@@ -12,12 +12,13 @@ body{
 
 #header-nav {
   height: 65px;
-  background-color: #ffffffbb;   
+  background-color: #B0171F;   
   border-radius: 0;
   border: 0;
   margin: 0;
   border-bottom: 1px solid black;
 }
+
 
 .navbar-brand{
   margin-left: 25px;
@@ -25,22 +26,23 @@ body{
 .container{
   padding: 0;
 }
-
 .navbar-brand h1{
   font-size: 1.5em;
+  font-family: 'Oxygen', sans-serif;
   color: black;
   font-weight: bold;
   margin-top: 0;
 }
 
+
 #nav-list{
   margin-top: 0;
 }
-
 li{
-  background-color: #ffffffbb;
+  background-color: #FFFFCD;
   margin:0;
 }
+
 
 #li-1, #li-2, #li-3{
   border-left: 1px solid black;
