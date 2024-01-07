@@ -63,11 +63,8 @@
 
 .title-box
 {
-    width:30%;
     border: 2px solid black;
     text-align: center;
-    position:relative;
-    float:right;  /* to keep the title card on top right corner */
 }
   
 p
