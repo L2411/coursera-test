@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
 #header-nav {
@@ -19,7 +20,6 @@
   }
 
 .navbar-brand h1 {    
-    font-family: 'Alfa Slab One';
     font-size: 1.5em;
     color: black;   
     margin-top: 0;
@@ -28,7 +28,6 @@
 }
 
 .text-center {
-    font-family: 'Sofia';
     font-size: 38px;
     font-weight: bold;
     position: relative;
@@ -37,8 +36,7 @@
 
 #text {       
     margin: 10px;
-    background-color: #AAA5A5;
-    font-family: 'Alfa Slab One';   
+    background-color: #AAA5A5;   
     position: relative;
 }
 
@@ -49,7 +47,6 @@
 #nav-list a {
     text-align: center;
     color: black;
-    font-family: 'Alfa Slab One';
     font-weight: 100;
     background-color: #AAA5A5;
 }
@@ -63,3 +60,18 @@
 	border: 0px;
 	list-style-type: none;
 }  
+
+.title-box
+{
+    width:30%;
+    border: 2px solid black;
+    text-align: center;
+    position:relative;
+    float:right;  /* to keep the title card on top right corner */
+}
+  
+p
+{
+    margin:10px;
+    clear:both; /* brings the text below the title box by resuming document flow*/
+}
