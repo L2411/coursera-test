@@ -1,13 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset = "utf-8"> 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>Assignment Solution for Module 3</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head> 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  </head>
+<body>
 
 <header>
   <nav id="header-nav" class="navbar navbar-default">
@@ -30,59 +40,63 @@
     <div id="collapsable-nav" class="collapse navbar-collapse">
         <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm">
             <li id ="li-1">
-              <a href="#chicken" class="text-center">Chicken</a>
+              <a href="#sec1" class="text-center">
+                Chicken</a>
             </li>
             <li id="li-2">
-              <a href="#beef" class="text-center">Beef</a>
+              <a href="#sec2" class="text-center">
+                Beef</a>
             </li>
             <li id = "li-3">
-              <a href="#sushi" class="text-center">Sushi</a>
+              <a href="#sec3" class="text-center">
+                Sushi</a>
             </li>
-        <ul> 
-    </div> 
+        <ul><!-- #nav-list -->
+    </div><!-- .collapse .navbar-collapse -->
 
   </header>     
 
-    <div  id="top"  class="container-fluid">
-      <h1>Our Menu</h1>
+
+  <h1 id = "menu" class="text-center">Our Menu</h1>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <section id="sec1">
+          <h2 id="chicken" class="text-center">Chicken</h2>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>(End of Chicken Section )<a href="#header-nav">Back To Top</a></p>
+        </section>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <section id="sec2">
+          <h2 id="beef" class="text-center">Beef</h2>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>(End of Beef Section )<a href="#header-nav">Back To Top</a></p>
+        </section>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <section id="sec3">
+          <h2 id="sushi" class="text-center">Sushi</h2>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>(End of Sushi Section )<a href="#header-nav">Back To Top</a></p>
+        </section>
+      </div>
     </div>
-    
-        <div class="items">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div id="text" class="container-fluid">
-                    <section id="chicken">
-                    <h2 class = "title-box">Chicken</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum ante nulla, sed sagittis neque fermentum vel. Morbi aliquet velit sed ex accumsan, laoreet fermentum eros accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vitae hendrerit metus.
-                    </p>
-                    <a class="visible-xs" href="#top">back to top</a>
-                    </section>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div id="text" class="container-fluid">
-                    <h2 class = "title-box">Beef</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum ante nulla, sed sagittis neque fermentum vel. Morbi aliquet velit sed ex accumsan, laoreet fermentum eros accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vitae hendrerit metus.
-                    </p>
-                    <a class="visible-xs" href="#top">back to top</a>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <div id="text" class="container-fluid">
-                    <h2 class = "title-box">Sushi</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum ante nulla, sed sagittis neque fermentum vel. Morbi aliquet velit sed ex accumsan, laoreet fermentum eros accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vitae hendrerit metus.
-                    </p>
-                    <a class="visible-xs" href="#top">back to top</a>
-                </div>
-            </div>
-        </div>
+  </div>
 
 
-    <!-- Include Bootstrap JavaScript and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
-    
 </html>
