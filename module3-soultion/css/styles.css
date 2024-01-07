@@ -3,72 +3,86 @@
 	font-family:"Comic Sans MS", cursive, sans-serif;
 }
 
+body{
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
 #header-nav {
-    background-color: #AAA5A5;
-    border-radius: 0;
-    border: 0;    
-    border: solid black 3px;
-    margin-bottom: 0;
+  height: 65px;
+  background-color: #B0171F;   
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  border-bottom: 1px solid black;
 }
 
-.navbar-brand {       
-    padding-left: 0;  
+.navbar-brand{
+  margin-left: 25px;
+}
+.container{
+  padding: 0;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-  }
-
-.navbar-brand h1 {    
-    font-size: 1.5em;
-    color: black;   
-    margin-top: 0;
-    margin-left: 15px;
-    margin-bottom: 0;
+.navbar-brand h1{
+  font-size: 1.5em;
+  font-family: 'Oxygen', sans-serif;
+  color: black;
+  font-weight: bold;
+  margin-top: 0;
 }
 
-.text-center {
-    font-size: 38px;
-    font-weight: bold;
-    position: relative;
-    margin-top: 55px;
+#nav-list{
+  margin-top: 0;
 }
 
-#text {       
-    margin: 10px;
-    background-color: #AAA5A5;   
-    position: relative;
+li{
+  background-color: #FFFFCD;
+  margin:0;
 }
 
-#nav-list {
-    margin-top: 10px;
+#li-1, #li-2, #li-3{
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right:1px solid black;
 }
 
-#nav-list a {
-    text-align: center;
-    color: black;
-    font-weight: 100;
-    background-color: #AAA5A5;
+
+.navbar-header button.navbar-toggle{
+  margin-right: 25px;
+  border: 1px solid black;  
+}
+.navbar-header .icon-bar{
+  border: 2px solid black;
 }
 
-#nav-list a:hover {
-    background-color: #AEAE52;   
+#collapsable-nav{
+  border: 0;
+  margin: 0;
+  padding-top: 0;
 }
 
-.navbar-default .navbar-collapse {
-	margin-top:0px;
-	border: 0px;
-	list-style-type: none;
-}  
-
-.title-box
-{
-    border: 2px solid black;
-    text-align: center;
+#nav-list a{
+  color: black;
 }
-  
-p
-{
-    margin:10px;
-    clear:both; /* brings the text below the title box by resuming document flow*/
+
+#menu{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section {
+  margin: 10px;
+  border: 1px solid black;
+  height: auto;
+  background-color: #ff9912;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
 }
