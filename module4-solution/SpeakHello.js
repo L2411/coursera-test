@@ -1,4 +1,4 @@
-(function(a) {
+(function(window) {
 
   var helloSpeaker = {};
 
@@ -8,7 +8,7 @@
     console.log(speakWord + " " + name);
   }
 
-  a.helloSpeaker = helloSpeaker;
+  window.helloSpeaker = helloSpeaker;
 
 })
-(a);
+(window);
